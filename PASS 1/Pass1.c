@@ -8,7 +8,7 @@ void main(){
     f1=fopen("input.txt","r");
     f3=fopen("symtab.txt","w");
     f4=fopen("intermediate.txt","w");
-    printf("\n\n### Pass 1 Assembler Program ###\n");
+    printf("\n\n#### Pass 1 Assembler Program ####\n");
     fscanf(f1,"%s %s %X",label,instruction,&operand);
     if(strcmp(instruction,"START") == 0){
         start = operand;
