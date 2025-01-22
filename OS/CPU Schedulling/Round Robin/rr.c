@@ -5,14 +5,14 @@ void roundRobin(int n, int bt[], int at[], int quantum);
 int main() {
     int n, quantum;
     
-    printf("Enter the number of processes: ");
+    printf("Enter the Number of Processes: ");
     scanf("%d", &n);
     
     int burstTimes[n], arrivalTimes[n];
     
     printf("Enter burst times and arrival times for each process:\n");
     for (int i = 0; i < n; i++) {
-        printf("Burst time for process %d: ", i + 1);
+        printf("Burst Time for Process %d: ", i + 1);
         scanf("%d", &burstTimes[i]);
         printf("Arrival time for process %d: ", i + 1);
         scanf("%d", &arrivalTimes[i]);
