@@ -80,7 +80,7 @@ int main() {
     for (i = 0; i < n; i++) {
         if (f[i] == 0) {
             flag = 0;
-            printf("The following system is not safe\n");
+            printf("The following system is not SAFE\n");
             break;
         }
     }
